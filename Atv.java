@@ -19,6 +19,14 @@ public class Atv{
     System.out.println("O resultado da suma é " + soma);
 
 
+    System.out.println("Escolha 1 numero para subitrair da soma anterior");
+    int nsubtracao = sc.nextInt();
+
+    int resultado = soma - nsubtracao;
+
+    System.out.println("O resultado é " + resultado);
+
+
  }
 
 }
